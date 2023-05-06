@@ -8,7 +8,7 @@ import { DepartmentOverviewComponent } from './department-overview/department-ov
 import { DepartmentContactComponent } from './department-contact/department-contact.component';
 
 const routes: Routes = [
-  {path:"", redirectTo:'/departments', pathMatch:'full'},
+  //{path:"", redirectTo:'/departments', pathMatch:'full'},
   {path: 'departments', component: DepartmentListComponent},
   {
     path: 'departments/:id', component: DepartmentDetailsComponent
@@ -18,7 +18,7 @@ const routes: Routes = [
     // ]
   },
   {path: 'employees', component: EmployeeListComponent},
-  {path: "**", component: PageNotFoundComponent}
+  {path: "**", component: DepartmentListComponent}
 ];
 
 
