@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+nav a.active {
+    background-color: red;
+    width: 130px;
+}
+
+
+button {
+    
+    color: darkblue;
+    padding: 5px;
+    margin: 3px;
+}
+
+ul.items {
+    list-style-type: none;
+    margin: 0px;
+    
+}
+
+.items li.selected{
+    color: white;
+}
+
+span.badge {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+}
+
+li {
+    
+    background: #cce5ff;
+    color: darkblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
