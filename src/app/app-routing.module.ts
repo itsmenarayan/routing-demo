@@ -11,11 +11,11 @@ const routes: Routes = [
   {path:"", redirectTo:'/departments', pathMatch:'full'},
   {path: 'departments', component: DepartmentListComponent},
   {
-    path: 'departments/:id', component: DepartmentDetailsComponent,
-    children:[
-      {path:'overview', component:DepartmentOverviewComponent},
-      {path: 'contact', component: DepartmentContactComponent}
-    ]
+    path: 'departments/:id', component: DepartmentDetailsComponent
+    // children:[
+    //   {path:'overview', component:DepartmentOverviewComponent},
+    //   {path: 'contact', component: DepartmentContactComponent}
+    // ]
   },
   {path: 'employees', component: EmployeeListComponent},
   {path: "**", component: PageNotFoundComponent}
